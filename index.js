@@ -13,7 +13,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://mediqueue-server-txy3.onrender.com',
-    'https://your-frontend-name.vercel.app'   // ← we will update this later
+    'https://medi-queu-client-rho.vercel.app',     // ← Add this line
+    'https://medi-que-client-rho.vercel.app'
   ],
   credentials: true
 }));
