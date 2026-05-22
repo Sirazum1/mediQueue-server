@@ -102,7 +102,82 @@ const seedTutors = async () => {
         experience: "11 years",
         location: "Gazipur",
         teachingMode: "Both"
-      }
+      },
+      {
+    user: "67a1b2c3d4e5f67890123456",
+    name: "Prof. Farhana Begum",
+    photo: "https://picsum.photos/id/1009/800/600",
+    subject: "Economics",
+    availableDays: "Sun - Thu",
+    availableTime: "4:30 PM - 7:30 PM",
+    hourlyFee: 850,
+    totalSlot: 7,
+    sessionStartDate: "2026-05-30",
+    institution: "DU",
+    experience: "8 years",
+    location: "Dhaka",
+    teachingMode: "Online"
+  },
+  {
+    user: "67a1b2c3d4e5f67890123456",
+    name: "Mr. Sohail Rana",
+    photo: "https://picsum.photos/id/1016/800/600",
+    subject: "Accounting",
+    availableDays: "Sat - Wed",
+    availableTime: "5:00 PM - 8:00 PM",
+    hourlyFee: 700,
+    totalSlot: 12,
+    sessionStartDate: "2026-05-31",
+    institution: "NSU",
+    experience: "6 years",
+    location: "Chittagong",
+    teachingMode: "Both"
+  },
+  {
+    user: "67a1b2c3d4e5f67890123456",
+    name: "Ms. Priya Das",
+    photo: "https://picsum.photos/id/1033/800/600",
+    subject: "Bangla Literature",
+    availableDays: "Mon - Fri",
+    availableTime: "6:30 PM - 9:30 PM",
+    hourlyFee: 550,
+    totalSlot: 15,
+    sessionStartDate: "2026-06-01",
+    institution: "JU",
+    experience: "10 years",
+    location: "Dhaka",
+    teachingMode: "Offline"
+  },
+  {
+    user: "67a1b2c3d4e5f67890123456",
+    name: "Dr. Hasan Mahmud",
+    photo: "https://picsum.photos/id/106/800/600",
+    subject: "History",
+    availableDays: "Sun - Thu",
+    availableTime: "3:00 PM - 6:00 PM",
+    hourlyFee: 650,
+    totalSlot: 8,
+    sessionStartDate: "2026-06-02",
+    institution: "RU",
+    experience: "14 years",
+    location: "Rajshahi",
+    teachingMode: "Online"
+  },
+  {
+    user: "67a1b2c3d4e5f67890123456",
+    name: "Ms. Lamia Akter",
+    photo: "https://picsum.photos/id/1003/800/600",
+    subject: "Programming (Python)",
+    availableDays: "Sat - Wed",
+    availableTime: "7:30 PM - 10:30 PM",
+    hourlyFee: 1100,
+    totalSlot: 6,
+    sessionStartDate: "2026-06-03",
+    institution: "BUET",
+    experience: "5 years",
+    location: "Dhaka",
+    teachingMode: "Both"
+  }
     ];
 
     await Tutor.insertMany(tutorsData);
