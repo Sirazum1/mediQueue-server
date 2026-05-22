@@ -13,8 +13,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://mediqueue-server-txy3.onrender.com',
-    'https://medi-queu-client-nkp6tika5-sirazum1s-projects.vercel.app',   // ← New domain
-    'https://medi-queu-client-rho.vercel.app'
+    'https://medi-queu-client-rho.vercel.app',     // ← Your exact current domain
+    'https://medi-queue-client-rho.vercel.app'
   ],
   credentials: true
 }));
